@@ -1,24 +1,13 @@
-console.log(typeof Infinity);  
-console.log(typeof NaN);  
-console.log(typeof undefined);  
-console.log(typeof null);  
+const bigNumber = 99347647438578549854589n
+console.log(bigNumber);
+// BigInt is a new primitive data type that allows you to represent whole numbers larger than 2^53 - 1.
 
-// Create a table in the browser console
-let name;
-console.table({
-  name: "John",
-  age: 30,
-  city: "New York",
-});
+const bigNumber2 = BigInt(99347647438578549854589)
+console.log(bigNumber2);
+// You can also create a BigInt from a string.
 
- 
-name = "Jane";
-console.log(name);  
+const name = "John"
+const name2 = name
+const name3 = name2
 
-// Arithmetic operations
-let x = 10;
-let y = 20;
-let sum = x + y;
-console.log("Sum:", sum);
-let difference = y - x;
-console.log("Difference:", difference);
+console.log(name3);
