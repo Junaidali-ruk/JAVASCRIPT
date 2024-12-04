@@ -1,26 +1,30 @@
-let bigNumber = 99347647438578549854589n;
-console.log(bigNumber);
-// BigInt is a new primitive data type that allows you to represent whole numbers larger than 2^53 - 1.
+// Working with BigInt
+let largeNumber1 = 1234567890123456789012345678901234567890n;
+console.log(largeNumber1);
 
-let bigNumber2 = BigInt(99347647438578549854589);
-console.log(bigNumber2);
-// You can also create a BigInt from a string.
+let largeNumber2 = BigInt("1234567890123456789012345678901234567890");
+console.log(largeNumber2);
 
-let name = "John";
-let name2 = name;
-let name3 = name2;
-name="junaid"
-console.log(name3);
+// Playing with variable references
+let color = "Blue";
+let color2 = color;
+let color3 = color2;
+color = "Green";
+console.log(color3); // Outputs "Blue"
 
-let obj = {
-  name: "John",
-  age: 30,
-  address: {
-    city: "New York",
-    country: "USA",
+// Working with object references
+let person = {
+  name: "Alice",
+  age: 25,
+  hobbies: {
+    indoor: "Reading",
+    outdoor: "Cycling",
   },
 };
 
-let obj2 = obj;
+let person2 = person;
 
-console.log(obj2.name="junaid");
+// Modifying person2 also affects person
+person2.hobbies.indoor = "Painting";
+console.log(person.hobbies.indoor); // Outputs "Painting"
+console.log(person2.name = "Bob");  // Modifies and prints "Bob"
