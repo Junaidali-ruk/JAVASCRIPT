@@ -21,7 +21,7 @@ let person = {
   },
 };
 
-let person2 = person;
+let person2 = person; 
 
 
 person2.hobbies.indoor = "Painting";
