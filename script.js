@@ -31,3 +31,9 @@ console.log(person2.name = "junaid");
 const arr=[2,1,2,3,4,5,6,7]
 const random= Math.floor(Math.random()*arr.length)
 console.log(arr[9])
+
+
+const obj={
+  arr:[2,1,2,3,4,5,6,7]
+}
+console.log(obj.arr[2])
