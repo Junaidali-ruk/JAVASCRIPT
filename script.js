@@ -20,7 +20,7 @@ let person = {
     outdoor: "Cycling",
   },
 };
-
+ 
 let person2 = person; 
 
 
