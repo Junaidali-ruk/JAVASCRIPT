@@ -37,3 +37,9 @@ const obj={
   arr:[2,1,2,3,4,5,6,7]
 }
 console.log(obj.arr[2])
+
+
+const score =6.6
+
+const balance =Number(score)
+console.log(balance);
