@@ -44,3 +44,6 @@
 // const random = Math.floor(Math.random() * array.length);
 // console.log(array[random]);
 // console.log([1, 2] + [3, 4])
+
+// const date=new Date()
+// console.log(date.toLocaleDateString())
