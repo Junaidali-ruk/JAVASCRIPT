@@ -39,8 +39,8 @@
 // const balance =Number(score)
 // console.log(balance);
 
-const array = [1, "junaid", false];
+// const array = [1, "junaid", false];
 //to get random from array
-const random = Math.floor(Math.random() * array.length);
-console.log(array[random]);
-console.log([1, 2] + [3, 4])
+// const random = Math.floor(Math.random() * array.length);
+// console.log(array[random]);
+// console.log([1, 2] + [3, 4])
