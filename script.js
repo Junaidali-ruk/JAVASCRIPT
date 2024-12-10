@@ -47,3 +47,8 @@
 
 // const date=new Date()
 // console.log(date.toLocaleDateString())
+// console.log("iam a student",date.toLocaleDateString())
+
+const array = [typeof NaN,"junaid", "ali", "ruk"];
+array.shift(0);
+console.log(array);
