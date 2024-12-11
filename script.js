@@ -58,5 +58,5 @@ animals.push("lion");
 animals.forEach((animal, i) => {
   const arr = [i];
   arr.push(animal);
-  console.log(arr);
+  console.log(arr); 
 });
