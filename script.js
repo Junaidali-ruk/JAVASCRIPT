@@ -60,3 +60,5 @@ animals.forEach((animal, i) => {
   arr.push(animal);
   console.log(arr); 
 });
+
+console.log(2-2);
