@@ -51,4 +51,5 @@
 
 const array = [typeof NaN,"junaid", "ali", "ruk"];
 array.shift(0);
+array.unshift(typeof NaN);
 console.log(array);
