@@ -76,11 +76,11 @@
 const object = {
   "full name": "junaid ali",
 };
-const g = (name, last) => {
-  object.name = name;
+const functn = (name, last) => {
+  object.name = name; 
   object.last = last;
   object["full name"] = name + last;
 };
-g("junaid ", "ali");
+functn("junaid ", "ali");
 
 console.log(object); 
