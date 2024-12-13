@@ -70,3 +70,5 @@ const obj = {
   lastname: "ali",
   caste: "ruk",
 };
+
+console.log(obj);
