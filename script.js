@@ -53,12 +53,20 @@
 // array.unshift(typeof NaN);
 // console.log(array);
 
-const animals = ["dog", "cat", "rat", "pig", "cow"];
-animals.push("lion");
-animals.forEach((animal, i) => {
-  const arr = [i];
-  arr.push(animal);
-  console.log(arr); 
-});
+// const animals = ["dog", "cat", "rat", "pig", "cow"];
+// animals.push("lion");
+// animals.forEach((animal, i) => {
+//   const arr = [i+1];
+//   arr.push(animal);
+//   console.log(arr);
+// });
 
-console.log(2-2);
+// console.log(2 - 2 == 0);
+
+// console.log(Array.from({name:"junaid"}))
+
+const obj = {
+  name: "junaid",
+  lastname: "ali",
+  caste: "ruk",
+};
