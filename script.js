@@ -83,4 +83,4 @@ const g = (name, last) => {
 };
 g("junaid ", "ali");
 
-console.log(object);
+console.log(object); 
