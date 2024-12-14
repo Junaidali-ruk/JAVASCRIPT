@@ -73,14 +73,21 @@
 
 // console.log(obj);
 
-const object = {
-  "full name": "junaid ali",
-};
-const functn = (name, last) => {
-  object.name = name; 
-  object.last = last;
-  object["full name"] = name + last;
-};
-functn("junaid ", "ali");
+// const object = {
+//   "full name": "junaid ali",
+// };
+// const functn = (name, last) => {
+//   object.name = name; 
+//   object.last = last;
+//   object["full name"] = name + last;
+// };
+// functn("junaid ", "ali");
 
-console.log(object); 
+// console.log(object); 
+
+
+const obj={
+    time:new Date().toLocaleTimeString(),
+    date:new Date().toLocaleDateString(),
+}
+console.log(obj);
